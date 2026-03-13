@@ -2,13 +2,11 @@
 
 Application interactive pour comprendre et visualiser la Transformation de Fourier Discrète (TFD).
 
-![article](cover.png)
+![article](capture.png)
 
 ## Application Rust / Dioxus
 
 Le projet a été converti de C++/Qt vers **Rust** avec l'interface graphique **Dioxus 0.7.3** (desktop).
-
-![article](capture.png)
 
 ### Compilation et lancement
 
