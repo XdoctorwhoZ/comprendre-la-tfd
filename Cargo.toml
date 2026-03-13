@@ -1,0 +1,19 @@
+[package]
+name = "comprendre-la-tfd"
+version = "0.1.0"
+edition = "2021"
+description = "Outil interactif pour comprendre la Transformation de Fourier Discrète (TFD)"
+
+[[bin]]
+name = "comprendre-la-tfd"
+path = "src/main.rs"
+
+[dependencies]
+dioxus = { version = "0.7.3", features = ["desktop"] }
+
+# Improve performance in debug builds for heavy DFT computation
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
